@@ -2,6 +2,8 @@
 
 本项目实现了一个针对 CIFAR-10 数据集上训练的卷积神经网络（CNN）进行的成员推断攻击（Membership Inference Attack, MIA）。成员推断攻击旨在推测某数据点是否被用于目标模型的训练过程，揭示潜在的隐私风险。本项目利用pytorch，通过训练影子模型和攻击模型来模拟这一攻击过程。
 
+代码复现于论文"ML-Leaks: Model and Data Independent Membership Inference Attacks and Defenses on Machine Learning Models"中的敌手1.
+
 ## 项目概述
 
 项目主要包含以下步骤：
